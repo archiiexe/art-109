@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    animation: 120s infinite alternate bgcol;
+    font-size: 1.6rem;
+    /* font-size 1.6 is now the same as 16px */
+    line-height: 1.6;
+}
+
+@keyframes streching {
+    0% {
+        transform: scale(1);
+        transform: rotate(0);
+        /* width : 100px; */
+        width: 0dvw;
+        background: bisque;
+        font-size: 10px;
+        text-align: center;
+        line-spacing: 12px;
+
+    }
+
+    100% {
+        transform: scale(2);
+        transform: rotate(0);
+        width: 50dvw;
+        background-color: #db1818;
+        font-size: 20px;
+        text-align: right;
+        line-spacing: 100px;
+
+    }
+}
+
+.button {
+    animation-name: streching;
+    animation-duration: 2s;
+    display: inline-block;
+    background-color: rgba(19 191 149/0.332);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.button2 {
+    animation: 5s infinite alternate newanim;
+    display : block;
+}
+
+@keyframes newanim {
+    0% {
+        transform: scale(1);
+        transform: rotate(0);
+        /* width : 100px; */
+        width: 0dvw;
+        background: rgb(41, 51, 228);
+        font-size: 10px;
+        text-align: center;
+        line-spacing: 12px;
+        color: aliceblue;
+        border-radius: 42px;
+
+    }
+
+    20% {
+        transform: scale(1);
+        transform: rotate(1.2turn);
+        color: black;
+        font-size: 90px;
+        translate: -10px;
+    }
+
+    100% {
+        transform: scale(2);
+        transform: rotate(5turn);
+        transform: skew(2px);
+        width: 50dvw;
+        background-color: #18db53;
+        font-size: 30px;
+        text-align: right;
+        line-spacing: 100px;
+        color: turquoise;
+        translate: 100%;
+        border-radius: 0px;
+
+    }
+}
+
+@keyframes bgcol {
+    0% {
+        background-color: rgb(199, 133, 133);
+    }
+    50% {
+        background-color: rgb(24, 162, 162);
+    }
+
+    100% {
+        background-color: rgb(0, 0, 0);
+    }
+}
