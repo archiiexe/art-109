@@ -1,0 +1,50 @@
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+
+html,
+body {
+   height: 100%;
+}
+
+
+body {
+    font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   background-color: black;
+
+}
+header {
+    padding: 50px;
+    background-color: darkgray;
+    text-align: center;
+}
+main {
+    /* display: flex; */
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+
+.image-div{
+   display: inline-block;
+   position: absolute;
+   top: 50px;
+   right: 25px;
+
+}
+.hidden{
+   visibility: hidden;
+}

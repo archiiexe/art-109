@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    
+	background: linear-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab); 
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite, gradientRotation 10s ease infinite alternate;
+	height: 100vh;
+    
+background-position:200}
+ 
+    
+
+#movingpics {
+    width: auto;
+    height: 40vw;
+    position:fixed;
+    z-index: -1;
+    top:10vh;
+    left:20vw; 
+     display: inline-block;
+    }
+
+.image-div {
+    background-color: black;
+    width: 395px;
+    height: 25px;
+    padding-top:10px; 
+    padding-right:  10px ;
+    padding-left: 10px;
+   display: inline-block;
+   position: absolute;
+   top: 12vw;
+   left: 60vw;
+
+
+}
+
+
+/* @keyframes gradientRotation {
+     0% {
+        --gradient-deg: -0deg;
+      }
+      25% {
+        --gradient-deg: 45deg;
+      }
+      50% {
+        --gradient-deg: 90deg;
+      }
+      75% {
+        --gradient-deg: 135deg;
+      }
+      100% {
+        --gradient-deg: 180deg;
+      }
+    } */
+
+    @keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position : 150% 100%
+    }
+    }
+
+    @keyframes colorShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+
+@media screen and (max-width:1200px){
+    .download-link{
+    position: absolute;
+     width: 1200px;
+
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .resume header::before {
+        width: 500px;
+    }
+    h1 {
+        font-size: 3.8rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+}
+
+    
+@media screen and (max-width:650px){
+   .image-div {
+        padding: 100px;
+    }}
+
+
