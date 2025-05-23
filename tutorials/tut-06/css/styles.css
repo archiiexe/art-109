@@ -1,0 +1,154 @@
+/* COLORS 
+
+E3DFFF Lavender 
+D3COCD Thistle
+B19994 Rosy brown
+937666 Beaver
+3D3A4B Jet
+*/
+
+/* GLOBAL STYLES
+-----------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #B19994;
+    margin: 0;
+}
+
+/* link styles
+- - - - - - - - - */
+a {
+    color: #5c976f;
+}
+
+a:hover {
+    color: #bac569;
+    text-decoration: none;
+}
+
+footer a {
+    color: #8f6c44;
+}
+
+footer a:hover {
+    color: #6ea980;
+}
+
+.btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 900px;
+}
+
+
+/* HOME
+-------------------------------*/
+.home {
+    background: url(../images/bg-gradient.jpg) no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.home .content-wrapper {
+   flex: 1 0 auto;
+    
+}
+.content-bg{
+    background: rgba(123, 138, 255, 0.2);
+    padding: 30px;
+    
+}
+
+/* RESUME
+------------------------------ */
+.resume header::before {
+    background: url(../images/proj2.png) center;
+    size: cover;
+    background-size: cover;
+    background-position: top ;
+
+    /* shorthand way for backgroundposition background: url(../images/proj2.png) center/ over 
+    needs content:"", to display*/
+    display: block;
+    height: 20px;
+}
+.resume-section{
+margin-bottom: 50px;
+}
+.resume-section h2{
+border-bottom : 2px double  teal;
+}
+.download{
+    position: fixed;
+    top: 10px;
+    left:10px;
+    z-index: 1; /*higher number container on top*/
+}
+
+/* Profile
+------- */
+.project-item {
+    display: flow-root;
+    margin: 20px  0;
+}
+
+.project-item img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* Projects
+----------- */
+
+/* FOOTER
+------------------------------- */
+footer {
+    background: rgb(40 70 70 / 0.8);
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  20px 10px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.socials img {
+    width: 36px;
+}
+
+.socials img:hover {
+    opacity: 0.6;
+}
