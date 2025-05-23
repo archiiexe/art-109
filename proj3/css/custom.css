@@ -1,0 +1,155 @@
+body {
+
+color:#9c4e64;
+background-color: #D9E3DA;
+
+}
+
+.widecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 10600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+a:link {
+    color: #660000;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #660044;
+}
+a:hover {
+    text-decoration: none;
+    color: #f00;
+}
+a:acti#BEE5B0{
+    text-decoration: none;
+    color: #BB772D;
+}
+
+td, th {
+    color: #A0522D;
+}
+
+
+
+.nav_pad1{
+  padding-top:2px;
+    
+}
+.section{
+  padding-top: 6px;
+  padding-bottom:40px;
+
+}
+
+.mid-section{
+  padding-top: 120px;
+  padding-bottom:40px;
+
+}
+
+.key {
+  font-weight:bold;
+
+
+}
+.stripe {
+ background-color: #DADADA;
+}
+
+
+ul.disc{
+  list-style: disc;
+  margin-left: 15px
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:10px;
+}
+
+
+.menubar {
+
+    background-color: #eed;
+    padding: 4px;
+    margin-top:4px;
+    margin-bottom: 60px; 
+    border: 1px solid grey;
+    width:  100%;
+ }
+.foot_menubar {
+/*    position: fixed; release this for fixed footer*/
+    background-color: #eed;
+    padding: 4px;
+    margin-top:4px;
+    margin-bottom: 60px; 
+    border: 1px solid grey;
+    width: 100%;
+ }
+
+.logo {
+
+    background-color: #fff;
+    padding: 2px;
+    margin-top: 96px;
+    margin-bottom: px;
+    align-items: flex-start;
+    border: 0px solid grey;
+    width: 140px;
+}
+/* Style the links inside the navigation bar */
+
+.menu{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.statement_text{
+ 
+    padding: 20px;
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.btn {
+    background: #b8dcc2;
+    color: #f46868;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.2em;
+    border-radius: 4px;
+    line-height: 2px;
+    padding: 12px;
+    display: inline-block;
+}
+    .btn2 {
+    background: #b2e2c0;
+    color: #f46868;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.2em;
+    border-radius: 4px;
+    line-height: 2px;
+    padding: 12px;
+    display: inline-block;
+
+}
