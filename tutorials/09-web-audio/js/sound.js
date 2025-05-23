@@ -3,6 +3,9 @@ let song = document.querySelector("#song");
 let playBtn = document.querySelector("#play-button");
 let stopBtn = document.querySelector("#stop-button");
 
+
+  song.play();  
+
 playBtn.addEventListener("click", function(){
 
    song.play();  

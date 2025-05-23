@@ -9,34 +9,49 @@
 </head>
 
 <body>
-    <header>HTML FOR US by US
+    <header>HTML FOR US by US </header>
+    <nav>
         <a href="../">Go Back</a>
-        <nav>
-            <ol>
-                <li><a href="#cat">Cat</a></li>
-                <li><a href="#mat">Mat</a></li>
-                <li><a href="#hat">Hat</a></li>
-            </ol>
-            <ul>
-                <li>Cat</li>
-                <li>Mat</li>
-                <li>Hat</li>
-            </ul>
-        </nav>
+    </nav>
+    <div>
+        <ol>
+            <li><a href="#cat">Cat</a></li>
+            <li><a href="#mat">Mat</a></li>
+            <li><a href="#hat">Hat</a></li>
+        </ol>
+        <ul>
+            <li>Cat</li>
+            <li>Mat</li>
+            <li>Hat</li>
+        </ul>
+        <p>Whats your fav dish</p>
+        <input type="checkbox" id="dish1" name="dish" value="cup">
+        <label for="hobby1">Cup</label><br>
+        <input type="checkbox" id="dish3" name="dish" value="Plate">
+        <label for="hobby2">Plate</label><br>
+        <input type="checkbox" id="dish3" name="dish" value="blow">
+        <label for="hobby3">Bowl</label>
         <div>
-            <img src="images/cat.png" alt="enjoy a picture of this cat" srcset="
+
+            <label for="myfile">Click here to upload</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+
+    </div>
+    <div>
+        <img src="images/cat.png" alt="enjoy a picture of this cat" srcset="
             images/cat-160.png 160w,
             images/cat-320.png 320w,
             images/cat-640.png 640w,
             images/cat-1280.png 1280w,
             ">
-            <img src="images/model.png" alt="enjoy art in collobration with AI" srcset="
+        <img src="images/model.png" alt="enjoy art in collobration with AI" srcset="
             images/model-160.png 160w,
             images/model-320.png 320w,
             images/model-640.png 640w,
             images/model-1280.png 1280w,
             ">
-        </div>
+    </div>
     </header>
     <main>
         <section id="cat" class="teal-section">
@@ -104,6 +119,18 @@
                 suscipit?</p>
 
         </section>
+        <div>
+            <input list="typesOfName">
+            <datalist id="diffNames">
+                <option>First Name></option>
+                <option>Last Name</option>
+                <option>Middle Name</option>
+                <option>Nick Name</option>
+                <option>No Name</option>
+
+            </datalist>
+        </div>
+
     </main>
     <footer>~~~~~signed by me~~~~~~</footer>
 
