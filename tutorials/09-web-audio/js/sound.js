@@ -15,8 +15,8 @@ console.log("stop")})
 let volumeControl = document.getElementById('volume');
   
   song.volume = volumeControl.value / 100;
-
-  // Update volume when slider changes
   volumeControl.addEventListener('input', () => {
     song.volume = volumeControl.value / 100;
+    console.log(song.volume);
+    console.log(volumeControl);
   });
